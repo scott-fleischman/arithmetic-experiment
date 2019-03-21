@@ -1,0 +1,11 @@
+name: arith
+version: 0.1
+
+dependencies:
+- base
+- containers
+
+executable:
+  main: Main.hs
+  ghc-options:
+  - -O2
